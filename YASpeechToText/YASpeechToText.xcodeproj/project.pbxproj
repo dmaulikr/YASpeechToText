@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC71AD41F2C9A860062086E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC71AD31F2C9A860062086E /* main.m */; };
+		FCC71AD71F2C9A860062086E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC71AD61F2C9A860062086E /* AppDelegate.m */; };
+		FCC71ADA1F2C9A860062086E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC71AD91F2C9A860062086E /* ViewController.m */; };
+		FCC71ADD1F2C9A860062086E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC71ADB1F2C9A860062086E /* Main.storyboard */; };
+		FCC71ADF1F2C9A860062086E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC71ADE1F2C9A860062086E /* Assets.xcassets */; };
+		FCC71AE21F2C9A860062086E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC71AE01F2C9A860062086E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCC71ACF1F2C9A860062086E /* YASpeechToText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YASpeechToText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC71AD31F2C9A860062086E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC71AD51F2C9A860062086E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC71AD61F2C9A860062086E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC71AD81F2C9A860062086E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCC71AD91F2C9A860062086E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC71ADC1F2C9A860062086E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC71ADE1F2C9A860062086E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC71AE11F2C9A860062086E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC71AE31F2C9A860062086E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC71ACC1F2C9A860062086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC71AC61F2C9A850062086E = {
+			isa = PBXGroup;
+			children = (
+				FCC71AD11F2C9A860062086E /* YASpeechToText */,
+				FCC71AD01F2C9A860062086E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC71AD01F2C9A860062086E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC71ACF1F2C9A860062086E /* YASpeechToText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC71AD11F2C9A860062086E /* YASpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				FCC71AD51F2C9A860062086E /* AppDelegate.h */,
+				FCC71AD61F2C9A860062086E /* AppDelegate.m */,
+				FCC71AD81F2C9A860062086E /* ViewController.h */,
+				FCC71AD91F2C9A860062086E /* ViewController.m */,
+				FCC71ADB1F2C9A860062086E /* Main.storyboard */,
+				FCC71ADE1F2C9A860062086E /* Assets.xcassets */,
+				FCC71AE01F2C9A860062086E /* LaunchScreen.storyboard */,
+				FCC71AE31F2C9A860062086E /* Info.plist */,
+				FCC71AD21F2C9A860062086E /* Supporting Files */,
+			);
+			path = YASpeechToText;
+			sourceTree = "<group>";
+		};
+		FCC71AD21F2C9A860062086E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC71AD31F2C9A860062086E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC71ACE1F2C9A860062086E /* YASpeechToText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC71AE61F2C9A860062086E /* Build configuration list for PBXNativeTarget "YASpeechToText" */;
+			buildPhases = (
+				FCC71ACB1F2C9A860062086E /* Sources */,
+				FCC71ACC1F2C9A860062086E /* Frameworks */,
+				FCC71ACD1F2C9A860062086E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YASpeechToText;
+			productName = YASpeechToText;
+			productReference = FCC71ACF1F2C9A860062086E /* YASpeechToText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC71AC71F2C9A850062086E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yashica Agrawal";
+				TargetAttributes = {
+					FCC71ACE1F2C9A860062086E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5VW996B8D2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCC71ACA1F2C9A850062086E /* Build configuration list for PBXProject "YASpeechToText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC71AC61F2C9A850062086E;
+			productRefGroup = FCC71AD01F2C9A860062086E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC71ACE1F2C9A860062086E /* YASpeechToText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC71ACD1F2C9A860062086E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC71AE21F2C9A860062086E /* LaunchScreen.storyboard in Resources */,
+				FCC71ADF1F2C9A860062086E /* Assets.xcassets in Resources */,
+				FCC71ADD1F2C9A860062086E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC71ACB1F2C9A860062086E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC71ADA1F2C9A860062086E /* ViewController.m in Sources */,
+				FCC71AD71F2C9A860062086E /* AppDelegate.m in Sources */,
+				FCC71AD41F2C9A860062086E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCC71ADB1F2C9A860062086E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC71ADC1F2C9A860062086E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC71AE01F2C9A860062086E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC71AE11F2C9A860062086E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC71AE41F2C9A860062086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC71AE51F2C9A860062086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC71AE71F2C9A860062086E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VW996B8D2;
+				INFOPLIST_FILE = YASpeechToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashica.YASpeechToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCC71AE81F2C9A860062086E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5VW996B8D2;
+				INFOPLIST_FILE = YASpeechToText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yashica.YASpeechToText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC71ACA1F2C9A850062086E /* Build configuration list for PBXProject "YASpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC71AE41F2C9A860062086E /* Debug */,
+				FCC71AE51F2C9A860062086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC71AE61F2C9A860062086E /* Build configuration list for PBXNativeTarget "YASpeechToText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC71AE71F2C9A860062086E /* Debug */,
+				FCC71AE81F2C9A860062086E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC71AC71F2C9A850062086E /* Project object */;
+}
